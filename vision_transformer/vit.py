@@ -11,8 +11,6 @@ from torch import nn
 from huggingface_hub import login
 from torch.utils.tensorboard import SummaryWriter
 
-# Set Hugging Face token
-HUGGINGFACE_HUB_TOKEN = "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"  # Replace with your actual Hugging Face token
 os.environ["HUGGINGFACE_HUB_TOKEN"] = HUGGINGFACE_HUB_TOKEN
 
 # Log in to Hugging Face Hub
